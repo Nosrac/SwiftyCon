@@ -4,6 +4,10 @@ Quickly generate iOS icons using SwiftUI.
 
 ## Example
 
+FIRE:
+
+![FIRE Example](https://raw.githubusercontent.com/Nosrac/SwiftyCon/main/example.png)
+
 ```
 struct Icon: View {
 	var icon : some View {
