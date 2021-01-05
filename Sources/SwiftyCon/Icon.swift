@@ -19,6 +19,7 @@ struct Icon: View {
 				Font.system(size: 650)
 					.weight(.ultraLight)
 			)
+			.shadow(radius: 10)
 	}
 	
 	var background : some View {

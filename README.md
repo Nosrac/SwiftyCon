@@ -6,7 +6,8 @@ Quickly generate iOS icons using SwiftUI.
 
 FIRE:
 
-![FIRE Example](https://raw.githubusercontent.com/Nosrac/SwiftyCon/main/example.png)
+![iOS Example](https://raw.githubusercontent.com/Nosrac/SwiftyCon/main/example-ios.png)
+![Mac Example](https://raw.githubusercontent.com/Nosrac/SwiftyCon/main/example-mac.png)
 
 ```
 struct Icon: View {
@@ -17,6 +18,7 @@ struct Icon: View {
 				Font.system(size: 650)
 					.weight(.ultraLight)
 			)
+			.shadow(radius: 10)
 	}
 	
 	var background : some View {
