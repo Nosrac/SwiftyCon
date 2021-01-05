@@ -1,10 +1,13 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "Icon"
+- "Icon_Previews"
 provides-nominal:
 - "9SwiftyCon4IconV"
+- "9SwiftyCon13Icon_PreviewsV"
 provides-member:
 - ["9SwiftyCon4IconV", ""]
+- ["9SwiftyCon13Icon_PreviewsV", ""]
 provides-dynamic-lookup:
 depends-top-level:
 - !private "Array"
@@ -12,9 +15,12 @@ depends-top-level:
 - !private "Font"
 - !private "Gradient"
 - "Icon"
+- "Icon_Previews"
 - !private "Image"
+- "Int"
 - !private "IntegerLiteralType"
 - !private "LinearGradient"
+- "PreviewProvider"
 - !private "StringLiteralType"
 - "VStack"
 - "View"
@@ -83,6 +89,7 @@ depends-member:
 - !private ["9SwiftyCon4IconV", "Font"]
 - !private ["9SwiftyCon4IconV", "Gradient"]
 - !private ["9SwiftyCon4IconV", "Image"]
+- ["9SwiftyCon4IconV", "Int"]
 - !private ["9SwiftyCon4IconV", "LinearGradient"]
 - !private ["9SwiftyCon4IconV", "VStack"]
 - ["9SwiftyCon4IconV", "View"]
@@ -96,6 +103,18 @@ depends-member:
 - ["9SwiftyCon4IconV", "body"]
 - ["9SwiftyCon4IconV", "icon"]
 - ["9SwiftyCon4IconV", "init"]
+- ["9SwiftyCon4IconV", "size"]
+- ["9SwiftyCon13Icon_PreviewsV", "Default_Previews"]
+- !private ["9SwiftyCon13Icon_PreviewsV", "Icon"]
+- ["9SwiftyCon13Icon_PreviewsV", "Previews"]
+- ["9SwiftyCon13Icon_PreviewsV", "View"]
+- ["9SwiftyCon13Icon_PreviewsV", ""]
+- ["9SwiftyCon13Icon_PreviewsV", "_Default_Previews"]
+- ["9SwiftyCon13Icon_PreviewsV", "_platform"]
+- ["9SwiftyCon13Icon_PreviewsV", "_previews"]
+- ["9SwiftyCon13Icon_PreviewsV", "init"]
+- ["9SwiftyCon13Icon_PreviewsV", "platform"]
+- ["9SwiftyCon13Icon_PreviewsV", "previews"]
 - !private ["7SwiftUI5ImageV", "foregroundColor"]
 - !private ["7SwiftUI5ImageV", "init"]
 - !private ["7SwiftUI14LinearGradientV", "init"]
@@ -104,6 +123,15 @@ depends-member:
 - ["So8NSObjectP", ""]
 - !private ["s9OptionSetP", "all"]
 - !private ["Sq", "white"]
+- ["7SwiftUI15PreviewProviderP", "Default_Previews"]
+- !private ["7SwiftUI15PreviewProviderP", "Icon"]
+- ["7SwiftUI15PreviewProviderP", "Previews"]
+- ["7SwiftUI15PreviewProviderP", ""]
+- ["7SwiftUI15PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI15PreviewProviderP", "_platform"]
+- ["7SwiftUI15PreviewProviderP", "_previews"]
+- ["7SwiftUI15PreviewProviderP", "platform"]
+- ["7SwiftUI15PreviewProviderP", "previews"]
 - !private ["SY", ""]
 - !private ["SY", "all"]
 - ["ST", ""]
@@ -138,7 +166,6 @@ depends-member:
 - !private ["7SwiftUI4ViewP", "edgesIgnoringSafeArea"]
 - !private ["7SwiftUI4ViewP", "font"]
 - !private ["7SwiftUI4ViewP", "foregroundColor"]
-- !private ["7SwiftUI4ViewP", "frame"]
 - !private ["7SwiftUI4ViewP", "icon"]
 - !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI4ViewP", "orange"]
@@ -157,6 +184,15 @@ depends-member:
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
 - ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "white"]
+- ["7SwiftUI16_PreviewProviderP", "Default_Previews"]
+- !private ["7SwiftUI16_PreviewProviderP", "Icon"]
+- ["7SwiftUI16_PreviewProviderP", "Previews"]
+- ["7SwiftUI16_PreviewProviderP", ""]
+- ["7SwiftUI16_PreviewProviderP", "_Default_Previews"]
+- ["7SwiftUI16_PreviewProviderP", "_platform"]
+- ["7SwiftUI16_PreviewProviderP", "_previews"]
+- ["7SwiftUI16_PreviewProviderP", "platform"]
+- ["7SwiftUI16_PreviewProviderP", "previews"]
 depends-nominal:
 - "7SwiftUI10AnimatableP"
 - "SK"
@@ -181,6 +217,7 @@ depends-nominal:
 - !private "7SwiftUI8GradientV"
 - "SH"
 - "9SwiftyCon4IconV"
+- "9SwiftyCon13Icon_PreviewsV"
 - !private "7SwiftUI5ImageV"
 - !private "7SwiftUI14LinearGradientV"
 - "s25LosslessStringConvertibleP"
@@ -188,6 +225,7 @@ depends-nominal:
 - "So8NSObjectP"
 - !private "s9OptionSetP"
 - !private "Sq"
+- "7SwiftUI15PreviewProviderP"
 - !private "SY"
 - "ST"
 - !private "7SwiftUI4EdgeO3SetV"
@@ -206,6 +244,7 @@ depends-nominal:
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
 - "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s21_ObjectiveCBridgeableP"
+- "7SwiftUI16_PreviewProviderP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
@@ -250,4 +289,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "343eecdd5fd341e6b9a8293ea2c9b088"
+interface-hash: "1b14fc6a31ad649a5354fc0ad7f1ced9"

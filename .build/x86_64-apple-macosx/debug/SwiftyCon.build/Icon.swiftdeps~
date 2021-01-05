@@ -13,6 +13,7 @@ depends-top-level:
 - !private "Gradient"
 - "Icon"
 - !private "Image"
+- "Int"
 - !private "IntegerLiteralType"
 - !private "LinearGradient"
 - !private "StringLiteralType"
@@ -83,6 +84,7 @@ depends-member:
 - !private ["9SwiftyCon4IconV", "Font"]
 - !private ["9SwiftyCon4IconV", "Gradient"]
 - !private ["9SwiftyCon4IconV", "Image"]
+- ["9SwiftyCon4IconV", "Int"]
 - !private ["9SwiftyCon4IconV", "LinearGradient"]
 - !private ["9SwiftyCon4IconV", "VStack"]
 - ["9SwiftyCon4IconV", "View"]
@@ -96,6 +98,7 @@ depends-member:
 - ["9SwiftyCon4IconV", "body"]
 - ["9SwiftyCon4IconV", "icon"]
 - ["9SwiftyCon4IconV", "init"]
+- ["9SwiftyCon4IconV", "size"]
 - !private ["7SwiftUI5ImageV", "foregroundColor"]
 - !private ["7SwiftUI5ImageV", "init"]
 - !private ["7SwiftUI14LinearGradientV", "init"]
@@ -249,4 +252,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "343eecdd5fd341e6b9a8293ea2c9b088"
+interface-hash: "83f0548c569bd3ac4558d9c4508c7b75"

@@ -10,6 +10,8 @@ import SwiftUI
 @available(OSX 11.0, *)
 struct Icon: View {
 	
+	var size : Int
+	
 	var icon : some View {
 		return Image(systemName: "flame.fill")
 			.foregroundColor(.white)
@@ -33,14 +35,15 @@ struct Icon: View {
 			
 			VStack {
 				icon
-					.frame(width: 1024, height: 1024)
 			}
 		}
 	}
 }
 
-//struct Icon_Previews: PreviewProvider {
-//	static var previews: some View {
-////		PhonePreview()
-//	}
-//}
+@available(OSX 11.0, *)
+struct Icon_Previews: PreviewProvider {
+	static var previews: some View {
+		Icon(size: 256)
+//		PhonePreview()
+	}
+}

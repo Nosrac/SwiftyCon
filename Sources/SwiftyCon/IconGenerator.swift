@@ -10,8 +10,6 @@ import SwiftUI
 
 @available(OSX 11.0, *)
 class IconGenerator {
-	let icon = Icon()
-	
 	var templateDirectory : URL {
 		let path = "Sources/SwiftyCon/Template.appiconset"
 		if FileManager.default.fileExists(atPath: path) {
@@ -52,6 +50,26 @@ class IconGenerator {
 		
 		print("Outputting to: " + generatedIconSet.path)
 	}
+
+	func generateIcon(atSize size: Int) -> Data? {
+		let resolutionMultiplier = Double(NSScreen.main?.backingScaleFactor ?? 1)
+		let adjustedSize = Double(size) / resolutionMultiplier
+		let scale : CGFloat = CGFloat(adjustedSize) / 1024.0
+		
+		let icon : AnyView
+		if MacIcon.sizes.contains(size) {
+			icon = AnyView( MacIcon(size: size) )
+		} else {
+			icon = AnyView( iOSIcon(size: size) )
+		}
+		
+		let rootView = icon.frame(width: 1024, height: 1024).scaleEffect( CGFloat(scale) )
+		
+		let wrapper = NSHostingView(rootView: rootView )
+		wrapper.frame = CGRect(x: 0, y: 0, width: adjustedSize, height: adjustedSize)
+		
+		return rasterize(view: wrapper, format: .png)
+	}
 	
 	func rasterize(view: NSView, format: NSBitmapImageRep.FileType) -> Data? {
 		guard let bitmapRepresentation = view.bitmapImageRepForCachingDisplay(in: view.bounds) else {
@@ -62,15 +80,4 @@ class IconGenerator {
 		return bitmapRepresentation.representation(using: format, properties: [:])
 	}
 	
-	func generateIcon(atSize size: Int) -> Data? {
-		let adjustedSize = (Double(size) / 2)
-		let scale : CGFloat = CGFloat(adjustedSize) / 1024.0
-		
-		let wrapper = NSHostingView(rootView: icon.scaleEffect( CGFloat(scale) ) )
-		wrapper.frame = CGRect(x: 0, y: 0, width: adjustedSize, height: adjustedSize)
-		
-		print((size, adjustedSize))
-		
-		return rasterize(view: wrapper, format: .png)
-	}
 }

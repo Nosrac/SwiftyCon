@@ -30,9 +30,5 @@ struct Icon: View {
 1. Edit Icon.swift, create your icon using SwiftUI
 2. Run via Command Line: `swift run`.  This will generate your icon for you and select it in Finder.
 
-
-## Missing Features
-- Proper macOS Icon Generation Support
-
 ## Recognition
 - Rasterizing code written by eneko: https://github.com/eneko/ConsoleUI

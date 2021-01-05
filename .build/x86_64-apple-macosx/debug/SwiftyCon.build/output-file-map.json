@@ -14,11 +14,11 @@
     "swiftmodule": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/IconGenerator~partial.swiftmodule",
     "swift-dependencies": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/IconGenerator.swiftdeps"
   },
-  "/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/MySwiftUIView.swift": {
-    "dependencies": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MySwiftUIView.d",
-    "object": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MySwiftUIView.swift.o",
-    "swiftmodule": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MySwiftUIView~partial.swiftmodule",
-    "swift-dependencies": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MySwiftUIView.swiftdeps"
+  "/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/MacIcon.swift": {
+    "dependencies": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MacIcon.d",
+    "object": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MacIcon.swift.o",
+    "swiftmodule": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MacIcon~partial.swiftmodule",
+    "swift-dependencies": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MacIcon.swiftdeps"
   },
   "/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/main.swift": {
     "dependencies": "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/main.d",

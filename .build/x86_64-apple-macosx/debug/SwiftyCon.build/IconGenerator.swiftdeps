@@ -8,13 +8,14 @@ provides-member:
 provides-dynamic-lookup:
 - "generate"
 - "generateIcon"
-- "icon"
 - "rasterize"
 - "templateDirectory"
 depends-top-level:
 - !private "+"
 - !private "/"
 - "=="
+- !private "??"
+- "AnyView"
 - !private "Array"
 - "AssignmentPrecedence"
 - "CGFloat"
@@ -25,12 +26,14 @@ depends-top-level:
 - !private "Double"
 - !private "FileManager"
 - !private "FloatLiteralType"
-- "Icon"
+- !private "Icon"
 - "IconGenerator"
 - "Int"
 - !private "IntegerLiteralType"
+- !private "MacIcon"
 - "NSBitmapImageRep"
 - !private "NSHostingView"
+- !private "NSScreen"
 - !private "NSTemporaryDirectory"
 - "NSView"
 - !private "NSWorkspace"
@@ -38,7 +41,6 @@ depends-top-level:
 - "URL"
 - !private "UnicodeScalarType"
 - !private "generateIcon"
-- !private "icon"
 - !private "print"
 - !private "rasterize"
 depends-member:
@@ -46,10 +48,14 @@ depends-member:
 - !private ["s18AdditiveArithmeticP", "init"]
 - !private ["7SwiftUI10AnimatableP", "init"]
 - !private ["7SwiftUI10AnimatableP", "size"]
+- !private ["7SwiftUI7AnyViewV", "frame"]
+- !private ["7SwiftUI7AnyViewV", "init"]
+- !private ["Sa", "contains"]
 - !private ["Sa", "filter"]
 - !private ["Sa", "first"]
 - ["SK", ""]
 - !private ["SK", "components"]
+- !private ["SK", "contains"]
 - !private ["SK", "filter"]
 - !private ["SK", "first"]
 - !private ["SK", "write"]
@@ -68,6 +74,7 @@ depends-member:
 - !private ["So6CGRectV", "init"]
 - !private ["So6CGRectV", "size"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "components"]
+- !private ["8CloudKit21CKRecordValueProtocolP", "contains"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "filter"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "first"]
 - !private ["8CloudKit21CKRecordValueProtocolP", "init"]
@@ -75,10 +82,12 @@ depends-member:
 - ["s7CVarArgP", "FileType"]
 - !private ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "activateFileViewerSelecting"]
+- !private ["s7CVarArgP", "backingScaleFactor"]
 - !private ["s7CVarArgP", "bitmapImageRepForCachingDisplay"]
 - !private ["s7CVarArgP", "bounds"]
 - !private ["s7CVarArgP", "cacheDisplay"]
 - !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "contains"]
 - !private ["s7CVarArgP", "contentsOfDirectory"]
 - !private ["s7CVarArgP", "copyItem"]
 - !private ["s7CVarArgP", "default"]
@@ -87,6 +96,7 @@ depends-member:
 - !private ["s7CVarArgP", "first"]
 - !private ["s7CVarArgP", "frame"]
 - !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "main"]
 - !private ["s7CVarArgP", "removeItem"]
 - !private ["s7CVarArgP", "representation"]
 - !private ["s7CVarArgP", "shared"]
@@ -94,12 +104,14 @@ depends-member:
 - !private ["10Foundation12CharacterSetV", "init"]
 - ["Sl", ""]
 - !private ["Sl", "components"]
+- !private ["Sl", "contains"]
 - !private ["Sl", "filter"]
 - !private ["Sl", "first"]
 - !private ["Sl", "write"]
 - ["SL", ""]
 - !private ["SL", "components"]
 - !private ["SL", "init"]
+- !private ["10Foundation15ContiguousBytesP", "contains"]
 - !private ["10Foundation15ContiguousBytesP", "filter"]
 - !private ["10Foundation15ContiguousBytesP", "first"]
 - !private ["10Foundation15ContiguousBytesP", "write"]
@@ -107,10 +119,12 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "activateFileViewerSelecting"]
 - !private ["s28CustomDebugStringConvertibleP", "appendingPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "backingScaleFactor"]
 - !private ["s28CustomDebugStringConvertibleP", "bitmapImageRepForCachingDisplay"]
 - !private ["s28CustomDebugStringConvertibleP", "bounds"]
 - !private ["s28CustomDebugStringConvertibleP", "cacheDisplay"]
 - !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
 - !private ["s28CustomDebugStringConvertibleP", "contentsOfDirectory"]
 - !private ["s28CustomDebugStringConvertibleP", "copyItem"]
 - !private ["s28CustomDebugStringConvertibleP", "default"]
@@ -120,6 +134,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "frame"]
 - !private ["s28CustomDebugStringConvertibleP", "init"]
 - !private ["s28CustomDebugStringConvertibleP", "lastPathComponent"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
 - !private ["s28CustomDebugStringConvertibleP", "path"]
 - !private ["s28CustomDebugStringConvertibleP", "pathExtension"]
 - !private ["s28CustomDebugStringConvertibleP", "removeItem"]
@@ -128,6 +143,7 @@ depends-member:
 - !private ["s28CustomDebugStringConvertibleP", "size"]
 - !private ["s28CustomDebugStringConvertibleP", "write"]
 - !private ["s17CustomReflectableP", "components"]
+- !private ["s17CustomReflectableP", "contains"]
 - !private ["s17CustomReflectableP", "filter"]
 - !private ["s17CustomReflectableP", "first"]
 - !private ["s17CustomReflectableP", "init"]
@@ -137,10 +153,12 @@ depends-member:
 - ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "activateFileViewerSelecting"]
 - !private ["s23CustomStringConvertibleP", "appendingPathComponent"]
+- !private ["s23CustomStringConvertibleP", "backingScaleFactor"]
 - !private ["s23CustomStringConvertibleP", "bitmapImageRepForCachingDisplay"]
 - !private ["s23CustomStringConvertibleP", "bounds"]
 - !private ["s23CustomStringConvertibleP", "cacheDisplay"]
 - !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "contains"]
 - !private ["s23CustomStringConvertibleP", "contentsOfDirectory"]
 - !private ["s23CustomStringConvertibleP", "copyItem"]
 - !private ["s23CustomStringConvertibleP", "default"]
@@ -150,6 +168,7 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "frame"]
 - !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "lastPathComponent"]
+- !private ["s23CustomStringConvertibleP", "main"]
 - !private ["s23CustomStringConvertibleP", "path"]
 - !private ["s23CustomStringConvertibleP", "pathExtension"]
 - !private ["s23CustomStringConvertibleP", "removeItem"]
@@ -159,11 +178,13 @@ depends-member:
 - !private ["s23CustomStringConvertibleP", "write"]
 - !private ["10Foundation4DataV", "write"]
 - !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "contains"]
 - !private ["10Foundation12DataProtocolP", "filter"]
 - !private ["10Foundation12DataProtocolP", "first"]
 - !private ["10Foundation12DataProtocolP", "write"]
 - !private ["Se", "appendingPathComponent"]
 - !private ["Se", "components"]
+- !private ["Se", "contains"]
 - !private ["Se", "filter"]
 - !private ["Se", "first"]
 - !private ["Se", "init"]
@@ -175,6 +196,7 @@ depends-member:
 - !private ["Sd", "init"]
 - !private ["SE", "appendingPathComponent"]
 - !private ["SE", "components"]
+- !private ["SE", "contains"]
 - !private ["SE", "filter"]
 - !private ["SE", "first"]
 - !private ["SE", "init"]
@@ -187,10 +209,12 @@ depends-member:
 - ["SQ", ""]
 - !private ["SQ", "activateFileViewerSelecting"]
 - !private ["SQ", "appendingPathComponent"]
+- !private ["SQ", "backingScaleFactor"]
 - !private ["SQ", "bitmapImageRepForCachingDisplay"]
 - !private ["SQ", "bounds"]
 - !private ["SQ", "cacheDisplay"]
 - !private ["SQ", "components"]
+- !private ["SQ", "contains"]
 - !private ["SQ", "contentsOfDirectory"]
 - !private ["SQ", "copyItem"]
 - !private ["SQ", "default"]
@@ -200,6 +224,7 @@ depends-member:
 - !private ["SQ", "frame"]
 - !private ["SQ", "init"]
 - !private ["SQ", "lastPathComponent"]
+- !private ["SQ", "main"]
 - !private ["SQ", "path"]
 - !private ["SQ", "pathExtension"]
 - !private ["SQ", "png"]
@@ -209,6 +234,7 @@ depends-member:
 - !private ["SQ", "size"]
 - !private ["SQ", "write"]
 - !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "contains"]
 - !private ["s25ExpressibleByArrayLiteralP", "filter"]
 - !private ["s25ExpressibleByArrayLiteralP", "first"]
 - !private ["s25ExpressibleByArrayLiteralP", "init"]
@@ -220,6 +246,7 @@ depends-member:
 - !private ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "IntegerLiteralType"]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", "init"]
 - ["s32ExpressibleByStringInterpolationP", ""]
@@ -292,10 +319,12 @@ depends-member:
 - ["SH", ""]
 - !private ["SH", "activateFileViewerSelecting"]
 - !private ["SH", "appendingPathComponent"]
+- !private ["SH", "backingScaleFactor"]
 - !private ["SH", "bitmapImageRepForCachingDisplay"]
 - !private ["SH", "bounds"]
 - !private ["SH", "cacheDisplay"]
 - !private ["SH", "components"]
+- !private ["SH", "contains"]
 - !private ["SH", "contentsOfDirectory"]
 - !private ["SH", "copyItem"]
 - !private ["SH", "default"]
@@ -305,6 +334,7 @@ depends-member:
 - !private ["SH", "frame"]
 - !private ["SH", "init"]
 - !private ["SH", "lastPathComponent"]
+- !private ["SH", "main"]
 - !private ["SH", "path"]
 - !private ["SH", "pathExtension"]
 - !private ["SH", "png"]
@@ -314,18 +344,20 @@ depends-member:
 - !private ["SH", "size"]
 - !private ["SH", "write"]
 - !private ["9SwiftyCon4IconV", ""]
-- ["9SwiftyCon4IconV", "init"]
-- !private ["9SwiftyCon4IconV", "scaleEffect"]
+- !private ["9SwiftyCon4IconV", "init"]
+- !private ["9SwiftyCon13IconGeneratorC", "AnyView"]
 - !private ["9SwiftyCon13IconGeneratorC", "CGFloat"]
 - !private ["9SwiftyCon13IconGeneratorC", "CGRect"]
 - !private ["9SwiftyCon13IconGeneratorC", "CharacterSet"]
 - ["9SwiftyCon13IconGeneratorC", "Data"]
 - !private ["9SwiftyCon13IconGeneratorC", "Double"]
 - !private ["9SwiftyCon13IconGeneratorC", "FileManager"]
-- ["9SwiftyCon13IconGeneratorC", "Icon"]
+- !private ["9SwiftyCon13IconGeneratorC", "Icon"]
 - ["9SwiftyCon13IconGeneratorC", "Int"]
+- !private ["9SwiftyCon13IconGeneratorC", "MacIcon"]
 - ["9SwiftyCon13IconGeneratorC", "NSBitmapImageRep"]
 - !private ["9SwiftyCon13IconGeneratorC", "NSHostingView"]
+- !private ["9SwiftyCon13IconGeneratorC", "NSScreen"]
 - !private ["9SwiftyCon13IconGeneratorC", "NSTemporaryDirectory"]
 - ["9SwiftyCon13IconGeneratorC", "NSView"]
 - !private ["9SwiftyCon13IconGeneratorC", "NSWorkspace"]
@@ -333,7 +365,6 @@ depends-member:
 - ["9SwiftyCon13IconGeneratorC", "deinit"]
 - ["9SwiftyCon13IconGeneratorC", "generate"]
 - ["9SwiftyCon13IconGeneratorC", "generateIcon"]
-- ["9SwiftyCon13IconGeneratorC", "icon"]
 - ["9SwiftyCon13IconGeneratorC", "init"]
 - !private ["9SwiftyCon13IconGeneratorC", "print"]
 - ["9SwiftyCon13IconGeneratorC", "rasterize"]
@@ -342,12 +373,17 @@ depends-member:
 - ["s25LosslessStringConvertibleP", ""]
 - !private ["s25LosslessStringConvertibleP", "components"]
 - !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["9SwiftyCon7MacIconV", ""]
+- !private ["9SwiftyCon7MacIconV", "init"]
+- !private ["9SwiftyCon7MacIconV", "sizes"]
 - !private ["s10MirrorPathP", "components"]
 - !private ["s10MirrorPathP", "init"]
 - !private ["SM", ""]
+- !private ["SM", "contains"]
 - !private ["SM", "filter"]
 - !private ["SM", "first"]
 - !private ["SM", "write"]
+- !private ["10Foundation19MutableDataProtocolP", "contains"]
 - !private ["10Foundation19MutableDataProtocolP", "filter"]
 - !private ["10Foundation19MutableDataProtocolP", "first"]
 - !private ["10Foundation19MutableDataProtocolP", "write"]
@@ -414,6 +450,7 @@ depends-member:
 - ["So8NSObjectC", ""]
 - !private ["So8NSObjectC", "activateFileViewerSelecting"]
 - !private ["So8NSObjectC", "activateFileViewerSelectingURLs"]
+- !private ["So8NSObjectC", "backingScaleFactor"]
 - !private ["So8NSObjectC", "bitmapImageRepForCachingDisplay"]
 - !private ["So8NSObjectC", "bitmapImageRepForCachingDisplayInRect"]
 - !private ["So8NSObjectC", "bounds"]
@@ -434,6 +471,7 @@ depends-member:
 - !private ["So8NSObjectC", "frame"]
 - !private ["So8NSObjectC", "frameForAlignmentRect"]
 - !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "main"]
 - !private ["So8NSObjectC", "removeItem"]
 - !private ["So8NSObjectC", "removeItemAtPath"]
 - !private ["So8NSObjectC", "removeItemAtURL"]
@@ -445,6 +483,7 @@ depends-member:
 - ["So8NSObjectP", ""]
 - !private ["So8NSObjectP", "activateFileViewerSelecting"]
 - !private ["So8NSObjectP", "activateFileViewerSelectingURLs"]
+- !private ["So8NSObjectP", "backingScaleFactor"]
 - !private ["So8NSObjectP", "bitmapImageRepForCachingDisplay"]
 - !private ["So8NSObjectP", "bitmapImageRepForCachingDisplayInRect"]
 - !private ["So8NSObjectP", "bounds"]
@@ -465,6 +504,7 @@ depends-member:
 - !private ["So8NSObjectP", "frame"]
 - !private ["So8NSObjectP", "frameForAlignmentRect"]
 - !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "main"]
 - !private ["So8NSObjectP", "removeItem"]
 - !private ["So8NSObjectP", "removeItemAtPath"]
 - !private ["So8NSObjectP", "removeItemAtURL"]
@@ -483,6 +523,8 @@ depends-member:
 - !private ["So11NSResponderC", "frame"]
 - !private ["So11NSResponderC", "frameForAlignmentRect"]
 - !private ["So11NSResponderC", "init"]
+- !private ["So8NSScreenC", "backingScaleFactor"]
+- !private ["So8NSScreenC", "main"]
 - ["So14NSSecureCodingP", "FileType"]
 - !private ["So14NSSecureCodingP", "components"]
 - !private ["So14NSSecureCodingP", "representation"]
@@ -536,11 +578,13 @@ depends-member:
 - !private ["Sj", "init"]
 - !private ["Sj", "magnitude"]
 - !private ["Sk", ""]
+- !private ["Sk", "contains"]
 - !private ["Sk", "filter"]
 - !private ["Sk", "first"]
 - !private ["Sk", "write"]
 - !private ["Sm", ""]
 - !private ["Sm", "components"]
+- !private ["Sm", "contains"]
 - !private ["Sm", "filter"]
 - !private ["Sm", "first"]
 - !private ["Sm", "write"]
@@ -556,6 +600,7 @@ depends-member:
 - !private ["ST", "Iterator"]
 - ["ST", ""]
 - !private ["ST", "components"]
+- !private ["ST", "contains"]
 - !private ["ST", "filter"]
 - !private ["ST", "first"]
 - !private ["ST", "makeIterator"]
@@ -596,8 +641,11 @@ depends-member:
 - !private ["10Foundation3URLV", "path"]
 - !private ["10Foundation3URLV", "pathExtension"]
 - !private ["7SwiftUI16VectorArithmeticP", "init"]
-- ["7SwiftUI4ViewP", "init"]
+- !private ["7SwiftUI4ViewP", "frame"]
+- !private ["7SwiftUI4ViewP", "init"]
 - !private ["7SwiftUI4ViewP", "scaleEffect"]
+- !private ["7SwiftUI4ViewP", "sizes"]
+- !private ["s14_ArrayProtocolP", "contains"]
 - !private ["s14_ArrayProtocolP", "filter"]
 - !private ["s14_ArrayProtocolP", "first"]
 - !private ["7SwiftUI14_BenchmarkHostP", "frame"]
@@ -611,6 +659,7 @@ depends-member:
 - !private ["s30_CustomPlaygroundQuickLookableP", "path"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "pathExtension"]
 - !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- !private ["s24_DestructorSafeContainerP", "contains"]
 - !private ["s24_DestructorSafeContainerP", "filter"]
 - !private ["s24_DestructorSafeContainerP", "first"]
 - ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
@@ -628,14 +677,17 @@ depends-member:
 - !private ["s34_ExpressibleByFileReferenceLiteralP", "pathExtension"]
 - !private ["7SwiftUI18_FormatSpecifiableP", "init"]
 - !private ["s19_HasContiguousBytesP", "components"]
+- !private ["s19_HasContiguousBytesP", "contains"]
 - !private ["s19_HasContiguousBytesP", "filter"]
 - !private ["s19_HasContiguousBytesP", "first"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "components"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "FileType"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "activateFileViewerSelecting"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backingScaleFactor"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "bitmapImageRepForCachingDisplay"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "cacheDisplay"]
@@ -646,12 +698,14 @@ depends-member:
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "fileExists"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "removeItem"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "representation"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FileType"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "activateFileViewerSelecting"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "backingScaleFactor"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bitmapImageRepForCachingDisplay"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cacheDisplay"]
@@ -662,6 +716,7 @@ depends-member:
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "fileExists"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "main"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "removeItem"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "representation"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
@@ -674,6 +729,7 @@ depends-member:
 - !private ["s21_ObjectiveCBridgeableP", "_unconditionallyBridgeFromObjectiveC"]
 - !private ["s21_ObjectiveCBridgeableP", "appendingPathComponent"]
 - !private ["s21_ObjectiveCBridgeableP", "components"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
 - !private ["s21_ObjectiveCBridgeableP", "filter"]
 - !private ["s21_ObjectiveCBridgeableP", "first"]
 - !private ["s21_ObjectiveCBridgeableP", "init"]
@@ -691,6 +747,7 @@ depends-member:
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - !private "7SwiftUI10AnimatableP"
+- !private "7SwiftUI7AnyViewV"
 - !private "Sa"
 - "SK"
 - !private "SB"
@@ -725,10 +782,11 @@ depends-nominal:
 - !private "s17FixedWidthIntegerP"
 - !private "SF"
 - "SH"
-- "9SwiftyCon4IconV"
+- !private "9SwiftyCon4IconV"
 - "9SwiftyCon13IconGeneratorC"
 - !private "Si"
 - "s25LosslessStringConvertibleP"
+- !private "9SwiftyCon7MacIconV"
 - !private "s10MirrorPathP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
@@ -751,6 +809,7 @@ depends-nominal:
 - !private "So19NSPasteboardReadingP"
 - !private "So19NSPasteboardWritingP"
 - "So11NSResponderC"
+- !private "So8NSScreenC"
 - "So14NSSecureCodingP"
 - !private "So30NSStandardKeyBindingRespondingP"
 - !private "So8NSStringC"
@@ -777,7 +836,7 @@ depends-nominal:
 - "s20TextOutputStreamableP"
 - !private "10Foundation3URLV"
 - !private "7SwiftUI16VectorArithmeticP"
-- "7SwiftUI4ViewP"
+- !private "7SwiftUI4ViewP"
 - !private "s14_ArrayProtocolP"
 - !private "7SwiftUI14_BenchmarkHostP"
 - !private "s15_CVarArgAlignedP"
@@ -842,4 +901,4 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "93d6f525dc9055ce7354dc1d96c4eab6"
+interface-hash: "4a6044f644a5d63b00b898f7554c0f39"
