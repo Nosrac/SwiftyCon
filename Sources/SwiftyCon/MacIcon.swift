@@ -14,7 +14,7 @@ struct MacIcon: View {
 	var size : Int
 	
 	// These sizes in Template.appiconset correspond to Mac app icons
-	static var sizes = [128, 256, 512, 1024]
+	static var sizes = [16, 32, 64, 128, 256, 512, 1024]
 	
 	var body: some View {
 		Icon(size: size)
