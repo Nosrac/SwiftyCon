@@ -1,0 +1,54 @@
+client:
+  name: basic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "SwiftyCon-debug.exe": ["<SwiftyCon-debug.exe>"]
+  "SwiftyCon-debug.module": ["<SwiftyCon-debug.module>"]
+  "main": ["<SwiftyCon-debug.exe>","<SwiftyCon-debug.module>"]
+  "test": ["<SwiftyCon-debug.exe>","<SwiftyCon-debug.module>"]
+default: "main"
+nodes:
+  "/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/":
+    is-directory-structure: true
+commands:
+  "<SwiftyCon-debug.exe>":
+    tool: phony
+    inputs: ["/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon"]
+    outputs: ["<SwiftyCon-debug.exe>"]
+
+  "<SwiftyCon-debug.module>":
+    tool: phony
+    inputs: ["/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/Icon.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/IconGenerator.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MySwiftUIView.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/main.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.swiftmodule"]
+    outputs: ["<SwiftyCon-debug.module>"]
+
+  "C.SwiftyCon-debug.exe":
+    tool: shell
+    inputs: ["/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/Icon.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/IconGenerator.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MySwiftUIView.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/main.swift.o"]
+    outputs: ["/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon"]
+    description: "Linking ./.build/x86_64-apple-macosx/debug/SwiftyCon"
+    args: ["/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug","-o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon","-module-name","SwiftyCon","-emit-executable","-Xlinker","-rpath","-Xlinker","@loader_path","@/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.product/Objects.LinkFileList","-Xlinker","-rpath","-Xlinker","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx","-target","x86_64-apple-macosx10.15","-Xlinker","-add_ast_path","-Xlinker","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.swiftmodule","-L","/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib"]
+
+  "C.SwiftyCon-debug.module":
+    tool: swift-compiler
+    inputs: ["/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/Icon.swift","/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/IconGenerator.swift","/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/MySwiftUIView.swift","/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/main.swift"]
+    outputs: ["/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/Icon.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/IconGenerator.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MySwiftUIView.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/main.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.swiftmodule"]
+    executable: "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/swiftc"
+    module-name: "SwiftyCon"
+    module-output-path: "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.swiftmodule"
+    import-paths: ["/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug"]
+    temps-path: "/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build"
+    objects: ["/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/Icon.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/IconGenerator.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/MySwiftUIView.swift.o","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/SwiftyCon.build/main.swift.o"]
+    other-args: ["-target","x86_64-apple-macosx10.15","-swift-version","5","-enable-batch-mode","-index-store-path","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/index/store","-sdk","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk","-F","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-I","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-L","/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/usr/lib","-Onone","-enable-testing","-g","-j12","-DSWIFT_PACKAGE","-DDEBUG","-module-cache-path","/Users/kyle/Developer/Projects/Swiftycon/.build/x86_64-apple-macosx/debug/ModuleCache","-parseable-output","-color-diagnostics"]
+    sources: ["/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/Icon.swift","/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/IconGenerator.swift","/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/MySwiftUIView.swift","/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/main.swift"]
+    is-library: false
+    enable-whole-module-optimization: false
+    num-threads: 12
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/","/Users/kyle/Developer/Projects/Swiftycon/Package.swift","/Users/kyle/Developer/Projects/Swiftycon/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

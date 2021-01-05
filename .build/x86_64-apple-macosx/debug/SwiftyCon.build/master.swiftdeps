@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "92c845a0f9b97bc37b313be8c71fc89a"
+build_time: [1609811915, 448697000]
+inputs:
+  "/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/Icon.swift": [1609811851, 289292290]
+  "/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/IconGenerator.swift": [1609811907, 816042137]
+  "/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/MySwiftUIView.swift": [1609806270, 649016949]
+  "/Users/kyle/Developer/Projects/Swiftycon/Sources/SwiftyCon/main.swift": [1609807328, 977558586]

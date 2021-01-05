@@ -1,0 +1,420 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "rasterize"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- "CGRect"
+- "Data"
+- "Date"
+- !private "Dictionary"
+- "FloatLiteralType"
+- "Icon"
+- "IntegerLiteralType"
+- "NSBitmapImageRep"
+- "NSHostingView"
+- "NSView"
+- "StringLiteralType"
+- "URL"
+- "print"
+- "rasterize"
+depends-member:
+- ["7SwiftUI10AnimatableP", "init"]
+- !private ["7SwiftUI10AnimatableP", "size"]
+- ["SK", ""]
+- ["SK", "write"]
+- ["So6CGRectV", "init"]
+- !private ["So6CGRectV", "size"]
+- ["8CloudKit21CKRecordValueProtocolP", "init"]
+- ["8CloudKit21CKRecordValueProtocolP", "write"]
+- ["s7CVarArgP", "FileType"]
+- !private ["s7CVarArgP", "bitmapImageRepForCachingDisplay"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "cacheDisplay"]
+- ["s7CVarArgP", "frame"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "representation"]
+- !private ["s7CVarArgP", "size"]
+- ["Sl", ""]
+- ["Sl", "write"]
+- ["SL", ""]
+- ["SL", "init"]
+- ["10Foundation15ContiguousBytesP", "write"]
+- ["s28CustomDebugStringConvertibleP", "FileType"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "bitmapImageRepForCachingDisplay"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "cacheDisplay"]
+- ["s28CustomDebugStringConvertibleP", "frame"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "representation"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- ["s28CustomDebugStringConvertibleP", "write"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "size"]
+- ["s17CustomReflectableP", "write"]
+- ["s23CustomStringConvertibleP", "FileType"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "appendInterpolation"]
+- ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "bitmapImageRepForCachingDisplay"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "cacheDisplay"]
+- ["s23CustomStringConvertibleP", "frame"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "representation"]
+- !private ["s23CustomStringConvertibleP", "size"]
+- ["s23CustomStringConvertibleP", "write"]
+- ["10Foundation4DataV", "write"]
+- ["10Foundation12DataProtocolP", ""]
+- ["10Foundation12DataProtocolP", "write"]
+- ["10Foundation4DateV", "init"]
+- ["Se", "init"]
+- !private ["Se", "size"]
+- ["Se", "write"]
+- ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- ["s26DefaultStringInterpolationV", "appendLiteral"]
+- ["SE", "init"]
+- !private ["SE", "size"]
+- ["SE", "write"]
+- ["SQ", "FileType"]
+- ["SQ", ""]
+- !private ["SQ", "bitmapImageRepForCachingDisplay"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "cacheDisplay"]
+- ["SQ", "frame"]
+- ["SQ", "init"]
+- ["SQ", "png"]
+- !private ["SQ", "representation"]
+- !private ["SQ", "size"]
+- ["SQ", "write"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Key"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "Value"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
+- ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
+- ["s32ExpressibleByStringInterpolationP", ""]
+- ["s32ExpressibleByStringInterpolationP", "init"]
+- ["s26ExpressibleByStringLiteralP", ""]
+- ["s33ExpressibleByUnicodeScalarLiteralP", ""]
+- ["So21NSBitmapImageFileTypeV", "png"]
+- ["SH", "FileType"]
+- ["SH", ""]
+- !private ["SH", "bitmapImageRepForCachingDisplay"]
+- !private ["SH", "bounds"]
+- !private ["SH", "cacheDisplay"]
+- ["SH", "frame"]
+- ["SH", "init"]
+- ["SH", "png"]
+- !private ["SH", "representation"]
+- !private ["SH", "size"]
+- ["SH", "write"]
+- ["9SwiftyCon4IconV", ""]
+- ["9SwiftyCon4IconV", "init"]
+- ["s25LosslessStringConvertibleP", ""]
+- ["SM", ""]
+- ["SM", "write"]
+- ["10Foundation19MutableDataProtocolP", "write"]
+- !private ["So22NSAccessibilityElementP", "bitmapImageRepForCachingDisplay"]
+- !private ["So22NSAccessibilityElementP", "bounds"]
+- !private ["So22NSAccessibilityElementP", "cacheDisplay"]
+- ["So22NSAccessibilityElementP", "frame"]
+- ["So22NSAccessibilityElementP", "init"]
+- !private ["So15NSAccessibilityP", "bitmapImageRepForCachingDisplay"]
+- !private ["So15NSAccessibilityP", "bounds"]
+- !private ["So15NSAccessibilityP", "cacheDisplay"]
+- ["So15NSAccessibilityP", "frame"]
+- ["So15NSAccessibilityP", "init"]
+- !private ["So29NSAnimatablePropertyContainerP", "bitmapImageRepForCachingDisplay"]
+- !private ["So29NSAnimatablePropertyContainerP", "bounds"]
+- !private ["So29NSAnimatablePropertyContainerP", "cacheDisplay"]
+- ["So29NSAnimatablePropertyContainerP", "frame"]
+- ["So29NSAnimatablePropertyContainerP", "init"]
+- !private ["So25NSAppearanceCustomizationP", "bitmapImageRepForCachingDisplay"]
+- !private ["So25NSAppearanceCustomizationP", "bounds"]
+- !private ["So25NSAppearanceCustomizationP", "cacheDisplay"]
+- ["So25NSAppearanceCustomizationP", "frame"]
+- ["So25NSAppearanceCustomizationP", "init"]
+- ["So16NSBitmapImageRepC", "FileType"]
+- !private ["So16NSBitmapImageRepC", "representation"]
+- !private ["So16NSBitmapImageRepC", "size"]
+- ["So8NSCodingP", "FileType"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "bitmapImageRepForCachingDisplay"]
+- !private ["So8NSCodingP", "bitmapImageRepForCachingDisplayInRect"]
+- !private ["So8NSCodingP", "bounds"]
+- !private ["So8NSCodingP", "cacheDisplay"]
+- !private ["So8NSCodingP", "cacheDisplayInRect"]
+- ["So8NSCodingP", "frame"]
+- ["So8NSCodingP", "frameForAlignmentRect"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "representation"]
+- !private ["So8NSCodingP", "representationUsingType"]
+- !private ["So8NSCodingP", "size"]
+- ["So9NSCopyingP", "FileType"]
+- !private ["So9NSCopyingP", "representation"]
+- !private ["So9NSCopyingP", "representationUsingType"]
+- !private ["So9NSCopyingP", "size"]
+- !private ["So21NSDraggingDestinationP", "bitmapImageRepForCachingDisplay"]
+- !private ["So21NSDraggingDestinationP", "bounds"]
+- !private ["So21NSDraggingDestinationP", "cacheDisplay"]
+- ["So21NSDraggingDestinationP", "frame"]
+- ["So21NSDraggingDestinationP", "init"]
+- ["So16NSDraggingSourceP", "frame"]
+- ["So16NSDraggingSourceP", "init"]
+- ["7SwiftUI13NSHostingViewC", "frame"]
+- ["7SwiftUI13NSHostingViewC", "init"]
+- ["So10NSImageRepC", "FileType"]
+- ["So10NSImageRepC", ""]
+- !private ["So10NSImageRepC", "representation"]
+- !private ["So10NSImageRepC", "representationUsingType"]
+- !private ["So10NSImageRepC", "size"]
+- ["So8NSObjectC", "FileType"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "bitmapImageRepForCachingDisplay"]
+- !private ["So8NSObjectC", "bitmapImageRepForCachingDisplayInRect"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "cacheDisplay"]
+- !private ["So8NSObjectC", "cacheDisplayInRect"]
+- ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "frameForAlignmentRect"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "representation"]
+- !private ["So8NSObjectC", "representationUsingType"]
+- !private ["So8NSObjectC", "size"]
+- ["So8NSObjectP", "FileType"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "bitmapImageRepForCachingDisplay"]
+- !private ["So8NSObjectP", "bitmapImageRepForCachingDisplayInRect"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "cacheDisplay"]
+- !private ["So8NSObjectP", "cacheDisplayInRect"]
+- ["So8NSObjectP", "frame"]
+- ["So8NSObjectP", "frameForAlignmentRect"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "representation"]
+- !private ["So8NSObjectP", "representationUsingType"]
+- !private ["So8NSObjectP", "size"]
+- ["So11NSResponderC", ""]
+- !private ["So11NSResponderC", "bitmapImageRepForCachingDisplay"]
+- !private ["So11NSResponderC", "bitmapImageRepForCachingDisplayInRect"]
+- !private ["So11NSResponderC", "bounds"]
+- !private ["So11NSResponderC", "cacheDisplay"]
+- !private ["So11NSResponderC", "cacheDisplayInRect"]
+- ["So11NSResponderC", "frame"]
+- ["So11NSResponderC", "frameForAlignmentRect"]
+- ["So11NSResponderC", "init"]
+- ["So14NSSecureCodingP", "FileType"]
+- !private ["So14NSSecureCodingP", "representation"]
+- !private ["So14NSSecureCodingP", "size"]
+- ["So30NSStandardKeyBindingRespondingP", ""]
+- !private ["So30NSStandardKeyBindingRespondingP", "bitmapImageRepForCachingDisplay"]
+- !private ["So30NSStandardKeyBindingRespondingP", "bitmapImageRepForCachingDisplayInRect"]
+- !private ["So30NSStandardKeyBindingRespondingP", "bounds"]
+- !private ["So30NSStandardKeyBindingRespondingP", "cacheDisplay"]
+- !private ["So30NSStandardKeyBindingRespondingP", "cacheDisplayInRect"]
+- ["So30NSStandardKeyBindingRespondingP", "frame"]
+- ["So30NSStandardKeyBindingRespondingP", "frameForAlignmentRect"]
+- ["So30NSStandardKeyBindingRespondingP", "init"]
+- ["So18NSTouchBarProviderP", ""]
+- !private ["So18NSTouchBarProviderP", "bitmapImageRepForCachingDisplay"]
+- !private ["So18NSTouchBarProviderP", "bitmapImageRepForCachingDisplayInRect"]
+- !private ["So18NSTouchBarProviderP", "bounds"]
+- !private ["So18NSTouchBarProviderP", "cacheDisplay"]
+- !private ["So18NSTouchBarProviderP", "cacheDisplayInRect"]
+- ["So18NSTouchBarProviderP", "frame"]
+- ["So18NSTouchBarProviderP", "frameForAlignmentRect"]
+- ["So18NSTouchBarProviderP", "init"]
+- ["So23NSUserActivityRestoringP", ""]
+- !private ["So23NSUserActivityRestoringP", "bitmapImageRepForCachingDisplay"]
+- !private ["So23NSUserActivityRestoringP", "bitmapImageRepForCachingDisplayInRect"]
+- !private ["So23NSUserActivityRestoringP", "bounds"]
+- !private ["So23NSUserActivityRestoringP", "cacheDisplay"]
+- !private ["So23NSUserActivityRestoringP", "cacheDisplayInRect"]
+- ["So23NSUserActivityRestoringP", "frame"]
+- ["So23NSUserActivityRestoringP", "frameForAlignmentRect"]
+- ["So23NSUserActivityRestoringP", "init"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "bitmapImageRepForCachingDisplay"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "bounds"]
+- !private ["So33NSUserInterfaceItemIdentificationP", "cacheDisplay"]
+- ["So33NSUserInterfaceItemIdentificationP", "frame"]
+- ["So33NSUserInterfaceItemIdentificationP", "init"]
+- ["So26NSUserInterfaceValidationsP", "frame"]
+- ["So26NSUserInterfaceValidationsP", "init"]
+- ["So6NSViewC", ""]
+- !private ["So6NSViewC", "bitmapImageRepForCachingDisplay"]
+- !private ["So6NSViewC", "bounds"]
+- !private ["So6NSViewC", "cacheDisplay"]
+- ["So6NSViewC", "frame"]
+- ["So6NSViewC", "init"]
+- ["Sk", ""]
+- ["Sk", "write"]
+- ["Sm", ""]
+- ["Sm", "write"]
+- ["SY", "png"]
+- ["10Foundation20ReferenceConvertibleP", "init"]
+- ["10Foundation20ReferenceConvertibleP", "write"]
+- ["ST", ""]
+- ["ST", "write"]
+- ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- ["s27StringInterpolationProtocolP", "appendLiteral"]
+- ["s27StringInterpolationProtocolP", "init"]
+- ["s16TextOutputStreamP", ""]
+- ["s16TextOutputStreamP", "appendInterpolation"]
+- ["s16TextOutputStreamP", "appendLiteral"]
+- ["s20TextOutputStreamableP", ""]
+- ["10Foundation3URLV", "init"]
+- ["7SwiftUI4ViewP", "init"]
+- ["7SwiftUI14_BenchmarkHostP", "frame"]
+- ["7SwiftUI14_BenchmarkHostP", "init"]
+- ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "size"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
+- ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "FileType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bitmapImageRepForCachingDisplay"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cacheDisplay"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "representation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "size"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "FileType"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bitmapImageRepForCachingDisplay"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "bounds"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "cacheDisplay"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "frame"]
+- ["10Foundation37_KeyValueCodingAndObservingPublishingP", "init"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "representation"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "size"]
+- ["s21_ObjectiveCBridgeableP", ""]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- ["s21_ObjectiveCBridgeableP", "write"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bitmapImageRepForCachingDisplay"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "bounds"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "cacheDisplay"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "frame"]
+- ["s38__DefaultCustomPlaygroundQuickLookableP", "init"]
+depends-nominal:
+- "7SwiftUI10AnimatableP"
+- "SK"
+- "So6CGRectV"
+- "8CloudKit21CKRecordValueProtocolP"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "10Foundation4DataV"
+- "10Foundation12DataProtocolP"
+- "10Foundation4DateV"
+- "Se"
+- "s26DefaultStringInterpolationV"
+- "SE"
+- "SQ"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s32ExpressibleByStringInterpolationP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- "So21NSBitmapImageFileTypeV"
+- "SH"
+- "9SwiftyCon4IconV"
+- "s25LosslessStringConvertibleP"
+- "SM"
+- "10Foundation19MutableDataProtocolP"
+- "So22NSAccessibilityElementP"
+- "So15NSAccessibilityP"
+- "So29NSAnimatablePropertyContainerP"
+- "So25NSAppearanceCustomizationP"
+- "So16NSBitmapImageRepC"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So21NSDraggingDestinationP"
+- "So16NSDraggingSourceP"
+- "7SwiftUI13NSHostingViewC"
+- "So10NSImageRepC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So11NSResponderC"
+- "So14NSSecureCodingP"
+- "So30NSStandardKeyBindingRespondingP"
+- "So18NSTouchBarProviderP"
+- "So23NSUserActivityRestoringP"
+- "So33NSUserInterfaceItemIdentificationP"
+- "So26NSUserInterfaceValidationsP"
+- "So6NSViewC"
+- "Sk"
+- "Sm"
+- "SY"
+- "10Foundation20ReferenceConvertibleP"
+- "ST"
+- "s27StringInterpolationProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "10Foundation3URLV"
+- "7SwiftUI4ViewP"
+- "7SwiftUI14_BenchmarkHostP"
+- "s30_CustomPlaygroundQuickLookableP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s34_ExpressibleByFileReferenceLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- "s21_ObjectiveCBridgeableP"
+- "s38__DefaultCustomPlaygroundQuickLookableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/XPC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftUI.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreData.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreImage.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Combine.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/QuartzCore.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Dispatch.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Metal.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Darwin.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreLocation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Foundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreFoundation.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CoreGraphics.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/os.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/UniformTypeIdentifiers.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/Swift.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/IOKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/CloudKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/AppKit.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/SwiftOnoneSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/prebuilt-modules/DeveloperToolsSupport.swiftmodule/x86_64-apple-macos.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/dyld.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/mach-o/compact_unwind_encoding.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/xpc/XPC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/Dispatch.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/ApplicationServices.framework/Headers/ApplicationServices.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/apinotes/os.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/UniformTypeIdentifiers.framework/Headers/UniformTypeIdentifiers.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CloudKit.framework/Headers/CloudKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/AppKit.framework/Headers/AppKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "37b7eeaa5a42675d8bb9a5e42cde3803"
