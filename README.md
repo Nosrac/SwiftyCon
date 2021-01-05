@@ -1,6 +1,6 @@
 # SwiftyCon
 
-Quickly generate iOS icons using SwiftUI.
+Quickly generate iOS and Mac app icons using SwiftUI.
 
 ## Example
 
