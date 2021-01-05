@@ -6,11 +6,6 @@ Quickly generate iOS icons using SwiftUI.
 
 ```
 struct Icon: View {
-	
-	var background : some View {
-		LinearGradient(gradient: Gradient(colors: [.red, .orange, .yellow]), startPoint: .bottom, endPoint: .top)
-	}
-	
 	var icon : some View {
 		return Image(systemName: "flame.fill")
 			.foregroundColor(.white)
@@ -18,9 +13,19 @@ struct Icon: View {
 				Font.system(size: 650)
 					.weight(.ultraLight)
 			)
-			.frame(width: 1024, height: 1024)
 	}
 	
+	var background : some View {
+		LinearGradient(gradient: Gradient(colors: [.red, .orange, .yellow]), startPoint: .bottom, endPoint: .top)
+	}
 	...
 }
 ```
+
+## Usage
+1. Edit Icon.swift, create your icon using SwiftUI
+2. Run via Command Line: `swift run`.  This will generate your icon for you and select it in Finder.
+
+
+## Missing Features
+- Proper macOS Icon Generation Support
