@@ -10,10 +10,6 @@ import SwiftUI
 @available(OSX 11.0, *)
 struct Icon: View {
 	
-	var background : some View {
-		LinearGradient(gradient: Gradient(colors: [.red, .orange, .yellow]), startPoint: .bottom, endPoint: .top)
-	}
-	
 	var icon : some View {
 		return Image(systemName: "flame.fill")
 			.foregroundColor(.white)
@@ -21,8 +17,15 @@ struct Icon: View {
 				Font.system(size: 650)
 					.weight(.ultraLight)
 			)
-			.frame(width: 1024, height: 1024)
 	}
+	
+	var background : some View {
+		LinearGradient(gradient: Gradient(colors: [.red, .orange, .yellow]), startPoint: .bottom, endPoint: .top)
+	}
+	
+	/**
+	Stop editing unless you know what you're doing!
+	*/
 	
 	var body: some View {
 		ZStack {
@@ -30,6 +33,7 @@ struct Icon: View {
 			
 			VStack {
 				icon
+					.frame(width: 1024, height: 1024)
 			}
 		}
 	}
