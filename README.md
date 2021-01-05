@@ -33,3 +33,6 @@ struct Icon: View {
 
 ## Missing Features
 - Proper macOS Icon Generation Support
+
+## Recognition
+- Rasterizing code written by eneko: https://github.com/eneko/ConsoleUI
